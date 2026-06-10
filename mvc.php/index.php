@@ -17,8 +17,12 @@ if (isset($_GET['action'])) {
         case 'subtrair':
             $controller->subtrair();
             break;
-        case 'multiplicar'->multiplicar();
-        break;
+        case 'multiplicar':
+            $controller->multiplicar();
+            break;
+        case 'dividir':
+            $controller->dividir();
+            break;
     }
 }
 
